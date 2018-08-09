@@ -1,0 +1,119 @@
+body, html {
+  height: 100%;
+  background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p, body {
+  line-height: 1.77;
+  font-size: 18px;
+  color: #4a4a4a;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ca493c;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 33px;
+}
+
+h4 {
+  font-size: 27px;
+}
+
+
+#mainHeader {
+  text-align: center;
+  padding: 140px 0;
+  background: url(images/bg_header.png) no-repeat center center;
+}
+
+#mainHeader p {
+  margin: 30px 0 0 0;
+  color: #fff;
+  font-family: serif;
+}
+
+.clearfix:after {
+  content: "";
+  clear:both;
+  display: block;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.contents {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.left_contents {
+  width: 700px;
+  float: left;
+  background-color: #fce4ec;
+}
+
+.contents .left_contents article {
+  border-bottom: 1px solid #bebebe;
+  padding-bottom: 30px;
+}
+
+.contents .left_contents header {
+  padding:0 0 20px;
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 20px;
+}
+
+.contents .left_contents h2 {
+  padding-top: 20px;
+}
+
+.contents .left_contents p {
+  margin: 20px 0;
+}
+
+.contents .left_contents hr {
+  width: 300px;
+  border: 0;
+  border-top: 1px solid #ca493c;
+}
+
+.contents .pagenation {
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+.contents .pagenation li {
+  border: 1px solid #e3e3e3;
+  list-style: none;
+}
+
+.right_contents {
+  width: 140px;
+  float: right;
+  background-color: #f8bbd0;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+}
