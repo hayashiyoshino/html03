@@ -113,6 +113,15 @@ h4 {
   background-color: #f8bbd0;
 }
 
+a.btn {
+   border: 2px solid #ca493c;
+   line-height: 30px;
+   text-align: center;
+   display: block;
+   font-weight: bold;
+   margin-top: 10px;
+ }
+
 footer {
   height: 100px;
   text-align: center;
